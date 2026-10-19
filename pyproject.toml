@@ -9,7 +9,7 @@ dependencies = [
     "numpy>=2.5.4",
     "pandas>=3.0.6",
     "scikit-learn>=1.9.1",
-    "tensorflow>=2.21.0",
+    "tensorflow[and-cuda]==2.21.0",
     "tensorflow-datasets>=4.9.10",
 ]
 [tool.uv.workspace]
